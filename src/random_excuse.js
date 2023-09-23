@@ -26,7 +26,7 @@ function App() {
       <button onClick={() => PartyExcuse('Party')}>Party</button>
       <button onClick={() => PartyExcuse('Family')}>Family</button>
       <button onClick={() => PartyExcuse('Office')}>Office</button>
-      <div style={{ paddingTop: 200 }}>{listexcuse}</div>
+      <div style={{ paddingTop: 100 }}>{listexcuse}</div>
     </div>
   );
 }
